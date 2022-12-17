@@ -25,5 +25,7 @@ namespace Tamasan_Raluca_Lab2.Models
         public Publisher? Publisher { get; set; } //navigation property
 
         public Author? Author { get; set; }
+
+        public ICollection<BookCategory>? BookCategories { get; set; }
     }
 }

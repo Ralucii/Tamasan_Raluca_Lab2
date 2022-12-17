@@ -19,5 +19,7 @@ namespace Tamasan_Raluca_Lab2.Data
         public DbSet<Tamasan_Raluca_Lab2.Models.Publisher> Publisher { get; set; }
 
         public DbSet<Tamasan_Raluca_Lab2.Models.Author> Author { get; set; }
+
+        public DbSet<Tamasan_Raluca_Lab2.Models.Category> Category { get; set; }
     }
 }
